@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "899045658626",
+    "firebase_url": "https://augmentedreality-16824.firebaseio.com",
+    "project_id": "augmentedreality-16824",
+    "storage_bucket": "augmentedreality-16824.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899045658626:android:ed47367d2b689459d2571b",
+        "android_client_info": {
+          "package_name": "com.example.augmentedreality"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899045658626-nhlfjeia8umrvb1ncc1l7c8rs80tcfcg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.augmentedreality",
+            "certificate_hash": "dd00fa85f5d3289a3ec1c7b8c8d787cf1241c1e6"
+          }
+        },
+        {
+          "client_id": "899045658626-0dscv14n017q989g5l8esfishddt8ibb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUavWBbm-f_pV4AZmwQjoXhUWFrsX456o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899045658626-0dscv14n017q989g5l8esfishddt8ibb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

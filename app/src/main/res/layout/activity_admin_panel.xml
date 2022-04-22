@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_more"
+    tools:context=".AdminPanel">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#263238"
+        android:id="@+id/Toolbar"
+        app:title="Admin Panel"
+        app:titleTextColor="#FFFFFF"
+/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recycleView"
+        android:scrollbars="vertical"
+        android:layout_below="@+id/Toolbar"
+        android:layout_marginTop="10dp"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="40dp"
+        android:backgroundTint="@color/colorAccent"
+        android:src="@drawable/ic_file_upload_white_24dp"
+        android:onClick="btn_UploadActivity"
+
+        />
+
+
+
+
+
+</RelativeLayout>
